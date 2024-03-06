@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # time: 2024/3/6 12:03
-# file: QLineEdit单行文本框.py
+# file: LineEdit单行文本框.py
 # author: chenruhai
 # email: ruhai.chen@qq.com
 

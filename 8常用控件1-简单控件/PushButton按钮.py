@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # time: 2024/3/6 11:37
-# file: QPushButton按钮.py
+# file: PushButton按钮.py
 # author: chenruhai
 # email: ruhai.chen@qq.com
 
