@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @FileName  :stats_pyside2实现.py
-# @Time      :2022/5/16 17:36
+# @Time      :2022/5菜单栏工具栏状态栏/16 17:36
 # @Author    : https://github.com/chenruhai?tab=repositories
 
 

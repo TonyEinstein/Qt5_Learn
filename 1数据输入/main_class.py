@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @FileName  :main_class.py
-# @Time      :2022/5/16 14:41
+# @Time      :2022/5菜单栏工具栏状态栏/16 14:41
 # @Author    : https://github.com/chenruhai?tab=repositories
 
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @FileName  :从ui生成的py文件加载类运行.py
-# @Time      :2022/5/18 16:20
+# @Time      :2022/5菜单栏工具栏状态栏/18 16:20
 # @Author    : https://github.com/chenruhai?tab=repositories
 
 
