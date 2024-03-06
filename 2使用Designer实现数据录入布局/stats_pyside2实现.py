@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @FileName  :stats.py
+# @FileName  :stats_pyside2实现.py
 # @Time      :2022/5/16 17:36
 # @Author    : https://github.com/chenruhai?tab=repositories
 
@@ -45,22 +45,3 @@ app = QApplication([])
 stats = Stats()
 stats.ui.show()
 app.exec_()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    run_code = 0

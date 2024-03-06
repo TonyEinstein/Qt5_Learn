@@ -47,7 +47,10 @@ class HttpClient(QObject):
         )
 
     def sendRequest(self):
-
+        """
+        发送请求
+        :return:
+        """
         method = self.ui.boxMethod.currentText()
         url    = self.ui.editUrl.text()
         payload = self.ui.editBody.toPlainText()
@@ -82,7 +85,11 @@ class HttpClient(QObject):
 
 
     def pretty_print_request(self,req):
-
+        """
+        打印request请求的内容
+        :param req:
+        :return:
+        """
         if req.body == None:
             msgBody = ''
         else:
@@ -97,6 +104,11 @@ class HttpClient(QObject):
         ))
 
     def pretty_print_response(self,res):
+        """
+        打印response请求的内容
+        :param res:
+        :return:
+        """
         self.ui.outputWindow.append(
             '{}\nHTTP/1.1 {}\n{}\n\n{}'.format(
             '\n\n----------- 得到响应 -----------',

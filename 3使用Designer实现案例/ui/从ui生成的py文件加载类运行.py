@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @FileName  :main_uic.py
+# @FileName  :从ui生成的py文件加载类运行.py
 # @Time      :2022/5/18 16:20
 # @Author    : https://github.com/chenruhai?tab=repositories
 
@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
         # 初始化界面
         self.ui.setupUi(self)
 
-        # 使用界面定义的控件，也是从ui里面访问
+        # 使用界面定义的控件，也是从ui里面访问（这里一直莫名错误）
         self.ui.webview.load('http://www.baidu.com')
 
 """

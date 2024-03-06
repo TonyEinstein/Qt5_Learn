@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @FileName  :stats2.py
+# @FileName  :stats2_pyside2实现.py
 # @Time      :2022/5/16 17:19
 # @Author    : https://github.com/chenruhai?tab=repositories
 from PyQt5 import uic
