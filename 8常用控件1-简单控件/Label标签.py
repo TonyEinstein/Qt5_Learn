@@ -4,7 +4,7 @@
 # file: TextBrowser文本浏览框.py
 # author: chenruhai
 # email: ruhai.chen@qq.com
-from PySide2 import QtWidgets
+
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtWidgets import QApplication, QMainWindow
 from PySide2 import QtWidgets
@@ -48,10 +48,3 @@ app = QApplication([])
 window = MyWindow()
 window.ui.show()
 app.exec_()
-
-
-
-"""
-QTextBrowser 是 只能查看文本 控件。
-通常用来显示一些操作日志信息、或者不需要用户编辑的大段文本内容。
-"""
