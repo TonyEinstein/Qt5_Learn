@@ -27,8 +27,6 @@ class MyWindow(QMainWindow):
         self.ui.pushButton_start.clicked.connect(self.handleButtonClicked)
         # 使用reset()将进度条倒退到开头。也可以在信号槽里面绑定。
         self.ui.pushButton_clear.clicked.connect(self.ui.progressBar.reset())
-
-
     def handleButtonClicked(self):
         """
         有时候我们的任务没法知道完成了多少，比如下载一个未知大小的文件。
@@ -40,8 +38,6 @@ class MyWindow(QMainWindow):
         # self.ui.progressBar.setRange(0,0)
         # 通过 setValue 方法，指定当前完成到了哪一步
         self.ui.progressBar.setValue(3)
-
-
 
 app = QApplication([])
 window = MyWindow()

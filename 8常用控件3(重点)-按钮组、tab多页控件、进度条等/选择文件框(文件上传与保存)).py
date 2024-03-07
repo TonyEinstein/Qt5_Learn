@@ -53,8 +53,6 @@ class MyWindow(QMainWindow):
         """
         self.ui.pushButton_4.clicked.connect(self.select_dir)
 
-
-
     def select_dir(self):
         """
         返回值是一个列表，里面包含了选择的文件；还返回了过滤信息。

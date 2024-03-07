@@ -48,7 +48,6 @@ class Window(QtWidgets.QMainWindow):
         """
         也可以在 Qt Designer上很方便的为 QMainWindow 类型的窗口添加菜单。上面的操作都能在设计师里面完成。
         """
-
     def actionHomePageClicked(self):
         print('actionHomePageClicked')
 
