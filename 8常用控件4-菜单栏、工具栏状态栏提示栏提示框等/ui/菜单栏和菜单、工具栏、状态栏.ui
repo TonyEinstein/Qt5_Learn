@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>478</width>
-    <height>391</height>
+    <width>565</width>
+    <height>365</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>478</width>
+     <width>565</width>
      <height>22</height>
     </rect>
    </property>
@@ -54,11 +54,12 @@
     <string>toolBar</string>
    </property>
    <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
+    <enum>LeftToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionrun"/>
   </widget>
   <action name="actionopen">
    <property name="text">
@@ -80,7 +81,21 @@
     <string>about</string>
    </property>
   </action>
+  <action name="actionrun">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/图标.ico</normaloff>:/图标.ico</iconset>
+   </property>
+   <property name="text">
+    <string>run</string>
+   </property>
+   <property name="toolTip">
+    <string>run</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

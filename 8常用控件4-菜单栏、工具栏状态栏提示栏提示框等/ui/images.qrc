@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>图标.ico</file>
+<!--        两个file之间是图片的路径 -->
+<!--        多少个文件写多少行-->
+    </qresource>
+</RCC>
