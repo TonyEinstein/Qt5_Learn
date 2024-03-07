@@ -10,6 +10,7 @@
   * https://geek-docs.com/pyqt5/pyqt5-tutorials/g_pyqt5-background-color-of-progress-bar.html
   * https://blog.csdn.net/hl120841/article/details/108230060
   * https://baijiahao.baidu.com/s?id=1662649592034634577&wfr=spider&for=pc
+  * https://blog.csdn.net/xhzc7/article/details/116702475
 
 # 1.清单
 
