@@ -26,6 +26,9 @@
     <property name="value">
      <number>0</number>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_start">
     <property name="geometry">

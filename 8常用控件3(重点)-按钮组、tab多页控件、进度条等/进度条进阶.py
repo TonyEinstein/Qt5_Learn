@@ -5,7 +5,7 @@
 # author: chenruhai
 # email: ruhai.chen@qq.com
 
-
+from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QApplication, QMainWindow, QPushButton,  QProgressBar,QMessageBox
 from time import sleep
 from threading import  Thread
@@ -31,6 +31,8 @@ class Stats():
         self.window.move(300, 300)#主界面位置
 
         self.progressBar = QProgressBar(self.window)
+        #设置百分比显示在中间，默认在右边
+        self.progressBar.setAlignment(Qt.AlignCenter)
         self.progressBar.resize(300, 20)#进度条大小
         self.progressBar.move(80, 30)#位置
         # 进度是 0 - 5，
@@ -62,6 +64,7 @@ class Stats():
             #注意，运行完统计操作之后需要等待几秒关闭线程之后再次点击 统计才会从头开始统计；
             # 点的太早会因为线程没有关闭导致下面这行代码还没运行，进而造成弹窗警告。
             self.ongoing = False
+            # self.progressBar.setStyleSheet("QProgressBar::chunk { background-color: green; }")  # 设置进度条颜色为淡蓝色
 
         if self.ongoing:
             QMessageBox.warning(self.window,'警告','任务进行中，请等待完成')
