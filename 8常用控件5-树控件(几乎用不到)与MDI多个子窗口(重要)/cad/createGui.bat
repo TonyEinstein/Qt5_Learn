@@ -1,0 +1,1 @@
+pyside2-uic form3d.ui > ui_form3d.py
