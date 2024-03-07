@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# time: 2024/3/6 10:02
+# time: 2024/3/6 10显示样式-选择器、属性、设置css等:02
 # file: stats_qt5实现.py
 # author: chenruhai
 # email: ruhai.chen@qq.com
