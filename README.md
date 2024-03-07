@@ -5,6 +5,11 @@
 * （1）本仓库是PyQt5学习笔记的仓库，实用性。
 * （2）本仓库仅作为学习使用。笔记和细节都在py文件里面了。
 * （3）欢迎大家对本仓库进行fork和pull requests。
+* （4）学习来源
+  * https://www.byhy.net/py/qt/qt_01/
+  * https://geek-docs.com/pyqt5/pyqt5-tutorials/g_pyqt5-background-color-of-progress-bar.html
+  * https://blog.csdn.net/hl120841/article/details/108230060
+  * https://baijiahao.baidu.com/s?id=1662649592034634577&wfr=spider&for=pc
 
 # 1.清单
 
@@ -34,7 +39,7 @@
 ```
 pip install -r requirements.txt
 ```
-
+具体安装配置教程：https://www.cnblogs.com/ldym/p/16031455.html
 
 # To contact me
 * e-mail：ruhai.chen@foxmail.com
