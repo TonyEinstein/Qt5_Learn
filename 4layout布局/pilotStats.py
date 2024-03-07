@@ -12,6 +12,7 @@ class Stats:
         # 注意：里面的控件对象也成为窗口对象的属性了
         # 比如 self.ui.button , self.ui.textEdit
         self.ui = QUiLoader().load('ui/main.ui')
+        self.ui.setGeometry(500, 500, 800, 600)
 
         
         self.ui.setWindowTitle('海运数据爬取分析')

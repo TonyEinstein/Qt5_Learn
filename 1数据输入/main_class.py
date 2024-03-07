@@ -12,6 +12,7 @@ class Stats():
         # QMainWindow、QPlainTextEdit、QPushButton 是3个控件类，分别对应界面的主窗口、文本框、按钮;
         # 要在界面上 创建一个控件 ，就需要在程序代码中 创建 这个 控件对应类 的一个 实例对象。
         self.window = QMainWindow()
+        # self.window.setGeometry(100, 100, 800, 600)
         self.window.resize(500, 400)
         self.window.move(300, 300)
         self.window.setWindowTitle('薪资统计')
