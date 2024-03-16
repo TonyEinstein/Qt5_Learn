@@ -31,10 +31,12 @@ class Start1(QWidget):
 
         #---------打印函数的执行主体------------#
         for i in range(num):
-            self.ui.plainTextEdit.appendPlainText(str(num_min))     # 输出到文本框
+            # 多次点击开始就出现问题。
+            # self.ui.plainTextEdit.appendPlainText(str(num_min))     # 输出到文本框
             self.ui.progressBar.setValue(int((i + 1) / num * 100))   # 给进度条赋值
             num_min += 1
-            sleep(0.1)            # 休眠0.1秒，模拟实际运行时程序的耗时
+            print(num_min)
+            sleep(0.01)            # 休眠0.1秒，模拟实际运行时程序的耗时
 
     #-------创建新线程函数------#
     def new_printFunc(self):

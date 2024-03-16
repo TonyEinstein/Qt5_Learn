@@ -46,9 +46,10 @@ class Start1(QWidget):
             # 传递参数包括要操作哪个位置和要操作的内容
             self.ms.text_print.emit(self.ui.plainTextEdit, self.ui.progressBar, str(num_min), int((i + 1) / num * 100))
             num_min += 1
-            sleep(0.1)
+            sleep(0.01)
 
     # 接收到发来的信号，pt和pb就是要操作的位置self.ui.plainTextEdit和self.ui.progressBar，text和int1则是具体内容
+    #这里是同时进行两个操作
     def pF(self, pt, pb, text, int1):
         pt.appendPlainText(text)
         pb.setValue(int1)

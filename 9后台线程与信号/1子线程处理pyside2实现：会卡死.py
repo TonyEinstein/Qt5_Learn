@@ -29,9 +29,12 @@ class Start1(QWidget):
 
         #---------打印函数的执行主体------------#
         for i in range(num):
-            self.ui.plainTextEdit.appendPlainText(str(num_min))     # 输出到文本框
+            #哪怕不输出到文本框，只要点击了别的tab,那么就会卡死。
+            #这里的卡死是：后台会执行到完毕然后主页面退出，后台执行的过程主页面是已经卡死了。
+            # self.ui.plainTextEdit.appendPlainText(str(num_min))     # 输出到文本框
             self.ui.progressBar.setValue(int((i + 1) / num * 100))   # 给进度条赋值
             num_min += 1
+            print(num_min)
             sleep(0.1)            # 休眠0.1秒，模拟实际运行时程序的耗时
 
 if __name__ == '__main__':

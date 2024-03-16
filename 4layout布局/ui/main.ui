@@ -39,12 +39,12 @@
         </property>
         <property name="dateTime">
          <datetime>
-          <hour>0</hour>
+          <hour>8</hour>
           <minute>0</minute>
           <second>10</second>
-          <year>2019</year>
-          <month>1</month>
-          <day>1</day>
+          <year>2018</year>
+          <month>12</month>
+          <day>31</day>
          </datetime>
         </property>
        </widget>
@@ -75,12 +75,12 @@
         </property>
         <property name="dateTime">
          <datetime>
-          <hour>0</hour>
+          <hour>8</hour>
           <minute>0</minute>
           <second>0</second>
           <year>2019</year>
           <month>1</month>
-          <day>14</day>
+          <day>13</day>
          </datetime>
         </property>
        </widget>
@@ -155,11 +155,10 @@
      <x>0</x>
      <y>0</y>
      <width>745</width>
-     <height>23</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
