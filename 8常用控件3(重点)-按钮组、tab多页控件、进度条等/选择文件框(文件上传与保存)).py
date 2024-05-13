@@ -98,6 +98,8 @@ class MyWindow(QMainWindow):
             self.df.to_excel(filePath,encoding="utf-8",index=False)
         print("已保存的文件：\t",filePath,"\t",filetype)
 
+
+    # 这个文件和上面的选择单个文件一样
     def open_onefile(self):
         """
         该方法返回值 是一个元组，第一个元素是选择的文件路径，第二个元素是文件类型，如果你只想获取文件路径即可，可以采用上面的代码写法。
