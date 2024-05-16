@@ -57,6 +57,7 @@ class Tab1(QWidget):
     def task_finished(self):
         # 无需手动释放资源，QThreadPool启动线程执行完成后会自动释放。
         print("{}线程结束".format(self.tab_id))
+
 class Tab2(QWidget):
     def __init__(self,thread_pool,tab_id):
         super().__init__()
