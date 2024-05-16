@@ -4,14 +4,14 @@ import multiprocessing as mp
 import time
 import random
 
-def worker(pipe):
+def worker(pipe, num):
     def expensive_calculation(x):
         result = x * x
         time.sleep(random.uniform(0.5, 1.5))  # 模拟耗时操作
         message = f"Process {mp.current_process().name}: Calculated {x} * {x} = {result}"
         pipe.send(message)
 
-    for i in range(10):
+    for i in range(num):
         expensive_calculation(i)
 
 class MainWindow(QMainWindow):
@@ -32,7 +32,7 @@ class MainWindow(QMainWindow):
         self.text_browser.clear()
 
         parent_conn, child_conn = mp.Pipe()
-        process = mp.Process(target=worker, args=(child_conn,))
+        process = mp.Process(target=worker, args=(child_conn, 10))  # 10为计算次数
         process.start()
 
         while process.is_alive():
