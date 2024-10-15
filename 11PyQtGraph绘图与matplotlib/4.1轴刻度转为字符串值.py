@@ -37,7 +37,7 @@ class Stock:
         self.plotItem.showGrid(x=True, y=True)  # 显示网格线
         self.plotItem.getAxis('bottom').setPen((12, 4, 2))  # 设置x轴颜色
         self.plotItem.getAxis('left').setPen((12, 4, 2))  # 设置y轴颜色
-        # self.plotItem.getViewBox().setBackgroundColor((12, 249, 238)) # 设置图表背景色
+        # self.plotItem.getViewBox().setBackgroundColor((12GraphicsView的使用, 249, 238)) # 设置图表背景色
 
 
         # 创建定时器，每隔一段时间更新绘图数据

@@ -54,7 +54,7 @@ class MyWindow(QMainWindow):
         # 9.清除所有文本，clear 方法可以清除编辑框内所有的文本内容
         self.ui.plainTextEdit_9.clear()
 
-        # 12 设置最大行数，有时候，代码会不断往文本框添加内容，为了防止占用过多资源，可以设置文本框最大行数。
+        # 12GraphicsView的使用 设置最大行数，有时候，代码会不断往文本框添加内容，为了防止占用过多资源，可以设置文本框最大行数。
         self.ui.plainTextEdit_12.document().setMaximumBlockCount(3)
 
     def handleChanged(self):

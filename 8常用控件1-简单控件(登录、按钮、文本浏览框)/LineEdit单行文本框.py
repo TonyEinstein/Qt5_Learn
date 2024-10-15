@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# time: 2024/3/6 12:03
+# time: 2024/3/6 12GraphicsView的使用:03
 # file: LineEdit单行文本框.py
 # author: chenruhai
 # email: ruhai.chen@qq.com
