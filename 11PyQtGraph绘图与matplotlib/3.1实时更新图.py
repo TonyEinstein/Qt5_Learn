@@ -79,3 +79,14 @@ if __name__ == '__main__':
 """
 要画动态的实时更新图，只需要在把变更的内容重新plot即可。
 """
+
+"""
+1.PyQtGraph图形可以作为一个 Qt的 widget控件，嵌入到 Qt 程序主窗口中。可以在 Qt Designer 中把 PyQtGraph图形控件 作为第三方控件 加入。
+
+2.通过 Qt Designer，我们可以预先把界面上的控件的位置大小设计好，然后动态加载把数据加载进去即可。
+
+
+3.但是 界面上摆放的都是 Qt内置的控件， 那么像 PyQtGraph 里面的 PlotWidget这种第三方控件怎么 放到 Qt Designer中呢？【最重要】
+    在UI设计中，界面是没有PlotWidget这个控件的，需要先随意加一个Label或者文本框、widget，然后右键 选择“提升为”中选择 PlotWidget，这样控件才会变成 PlotWidget控件。
+     具体做法：通过 Qt Designer 放一个 第三方控件 的 上层layout， 然后在代码中 创建 第三方控件对象（文本框或者label都可以、或者widget）， 并且添加到 上层layout 里面去。
+"""
